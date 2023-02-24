@@ -1,0 +1,16 @@
+.buttons-container {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 300px) {
+  .buttons-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 600px) {
+  .buttons-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

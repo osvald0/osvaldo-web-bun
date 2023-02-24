@@ -1,0 +1,14 @@
+.title {
+  font-size: larger;
+}
+
+.content {
+  line-height: 1.25;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2rem;
+}
